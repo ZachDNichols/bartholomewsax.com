@@ -81,19 +81,49 @@ nav a:hover::after {
 }
 
 .benimage center{
-    font-size: 50px;
+    font-size: 40px;
     color : #ffffff;
     position : absolute;
     top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     text-shadow: 2px 2px #000;
+    margin: 20px 20px;
 }
 
 .upcoming_events {
     text-align: center;
 }
 
+.upcoming_events a{
+    text-align: center;
+    font-weight: lighter;
+    color : #000;
+}
 
+.events {
+    width: 95%;
+    margin: 20px 2.5%;
+    padding: 10px 10px;
+    background-color: rgb(214, 214, 214);
+    display: inline-block;
+}
 
+.events img {
+    float: left;
+    height: 250px;
+    margin : auto 10px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.118);
+}
 
+.events h2 {
+    margin-left: 400px;
+    position: relative;
+    font-size: 30px;
+}
+
+.events p {
+    margin-left: 400px;
+    font-size: 20px;
+}
